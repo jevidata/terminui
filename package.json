@@ -1,6 +1,6 @@
 {
 	"name": "terminui",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "A fast, functional TypeScript library for building terminal user interfaces",
 	"type": "module",
 	"main": "./dist/index.js",
@@ -11,7 +11,9 @@
 			"import": "./dist/index.js"
 		}
 	},
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "tsup",
 		"test": "vitest run",
@@ -21,7 +23,13 @@
 		"format": "biome format --write src",
 		"typecheck": "tsc --noEmit"
 	},
-	"keywords": ["tui", "terminal", "ui", "ratatui", "cli"],
+	"keywords": [
+		"tui",
+		"terminal",
+		"ui",
+		"ratatui",
+		"cli"
+	],
 	"license": "Apache-2.0",
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
