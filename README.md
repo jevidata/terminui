@@ -364,6 +364,9 @@ npx tsx examples/primary-screen.ts
 
 # Multi-frame alternate screen simulation
 npx tsx examples/alternate-screen.ts
+
+# Live weather dashboard (Open-Meteo)
+npx tsx examples/weather-dashboard.ts --city "New York"
 ```
 
 ## Dev
